@@ -1,3 +1,9 @@
+@font-face {
+    font-family: skills1;
+    src: url("/font-styles/Transformers\ Movie.ttf");
+}
+
+
 body{
     background-color: lightgray;
 }
@@ -34,15 +40,61 @@ input[type=button]{
 }
 
 input[type=button]:hover{
-    background-color: rgba(255, 255, 255, 0.916);
+    background-color: rgba(255, 255, 255, 0.837);
 }
 
 input[type=text]{
-    width: 93%;
+    width: 220px;
     height: 80px;
-    margin: 5px;
-    margin-bottom: 15px;
+    margin: 7px;
+    margin-bottom: 18px;
     border-radius: 7px;
 }
 
+#displayb{
+    color: black;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
 
+#solar{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: yellow;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: none;
+    font-size: large;
+}
+
+#green{
+    background-color: greenyellow;
+}
+
+#green:hover{
+    background-color: rgba(172, 255, 47, 0.837);
+
+}
+
+#operators{
+    background-color: rgb(221, 156, 156);
+}
+
+#operators:hover{
+    background-color: rgba(221, 156, 156, 0.837);
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: skills1;
+    font-size: 45px;
+    border-bottom:  black 5px solid;
+    padding-bottom: 5px;
+
+}
+
+h1>span{
+    color: rgb(186, 8, 8);
+}
